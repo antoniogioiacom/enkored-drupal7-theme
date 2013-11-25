@@ -591,15 +591,12 @@ h1#page-title {
   padding:10px;
 }
 
-.node h2{
+.node .content h2{
   background-color: transparent;
-  font-weight:bold;
 }
 
 .node h2 a{
   display:block;
-  padding-left:10px;
-  border-left:8px solid #014e85;
 }
 
 .node-teaser .content {
@@ -610,10 +607,13 @@ h1#page-title {
   padding-top: 0.5em;
 }
 .node-teaser h2 a {
-  color: #181818;
+  color: #333;
+  border-left:8px solid #014e85;
+  padding-left:10px;
+  font-weight:bold;
 }
 .node-teaser {
-  border: 1px solid #d3d7d9;
+  border: 1px solid #eee;
   margin: 20px 0;
   padding-bottom: 10px;
 }
@@ -670,6 +670,8 @@ h1#page-title {
 }
 .link-wrapper {
   text-align: right;
+  padding:0.2em;
+  background: #f0f0f0;
 }
 .field-type-image img,
 .user-picture img {
