@@ -615,7 +615,7 @@ h1#page-title {
   margin-top: 0;
   padding-top: 0.5em;
 }
-.node-teaser h2:first-of-type a {
+.node-teaser h2 a {
   color: #333;
   border-left:8px solid #014e85;
   padding-left:10px;
@@ -623,8 +623,7 @@ h1#page-title {
 }
 .node-teaser {
   border-top: 5px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
-  margin: 0 0 35px 0;
+  margin: 0 0 50px 0;
   padding: 10px 0;
 }
 .node-sticky {
@@ -683,7 +682,8 @@ h1#page-title {
 }
 .link-wrapper {
   text-align: right;
-  padding:0.2em;
+  padding:10px 0;
+  border-top: 5px solid #f0f0f0;
 }
 .field-type-image img,
 .user-picture img {
