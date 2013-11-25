@@ -591,8 +591,10 @@ h1#page-title {
   padding:10px;
 }
 
-.node .content h2{
+.node-teaser .content h2{
   background-color: transparent;
+  border:0;
+  font-weight: normal;
 }
 
 .node h2 a{
@@ -613,7 +615,8 @@ h1#page-title {
   font-weight:bold;
 }
 .node-teaser {
-  border: 1px solid #eee;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
   margin: 20px 0;
   padding-bottom: 10px;
 }
@@ -635,7 +638,10 @@ h1#page-title {
 .meta {
   font-size: 0.857em;
   color: #68696b;
+  margin-top:5px;
   margin-bottom: -5px;
+  font-size:90%;
+  color:#787878;
 }
 .submitted .user-picture img {
   float: left; /* LTR */
@@ -671,7 +677,6 @@ h1#page-title {
 .link-wrapper {
   text-align: right;
   padding:0.2em;
-  background: #f0f0f0;
 }
 .field-type-image img,
 .user-picture img {
@@ -1678,4 +1683,5 @@ div.admin-panel .description {
 
 #header{
   border-bottom:8px solid #222;
+  padding:10px;
 }
