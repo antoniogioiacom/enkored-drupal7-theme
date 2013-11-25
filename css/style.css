@@ -462,6 +462,7 @@ h1#site-name {
   clear: both;
   position: absolute;
   bottom:-8px;
+  display:none;
 }
 #main-menu-links {
   font-size: 0.929em;
@@ -587,6 +588,11 @@ h1#page-title {
 }
 .node .content {
   font-size: 1.071em;
+  background-color: #f0f0f0;
+}
+
+.node h2{
+  background-color: transparent;
 }
 .node-teaser .content {
   font-size: 1em;
