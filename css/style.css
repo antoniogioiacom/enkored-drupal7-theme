@@ -453,11 +453,6 @@ h1#site-name {
 /* Search block in region header. */
 .region-header #block-search-form {
   width: 100%;
-  position:fixed;
-  border:1px solid #000;
-  right:0;
-  top:3em;
-  text-align:right;
 
 }
 .region-header #block-search-form .form-text {
@@ -643,11 +638,12 @@ h1#page-title {
 .node-teaser .content {
   clear: none;
   line-height: 1.6;
+  margin:10px 0;
 }
 .meta {
+  display:block;
+  margin:3px 0;
   font-size: 0.857em;
-  margin-top:5px;
-  margin-bottom: -5px;
   font-size:80%;
   color:#787878;
 }
@@ -1474,7 +1470,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 /* --------------- Search Form ---------------- */
 
 #block-search-form {
-  padding-bottom: 7px;
+  margin:1em 0;
   border-top:0;
   background-color: transparent;
 }
@@ -1498,11 +1494,9 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   padding: 0;
   cursor: pointer;
   text-indent: -9999px;
-  border-color: #aaa;
   background: url(../images/search-button.png) no-repeat center top;
   overflow: hidden;
   background-color:transparent;
-  float:right;
 }
 #search-block-form input.form-submit:hover,
 #search-block-form input.form-submit:focus,
