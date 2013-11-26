@@ -1470,16 +1470,19 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 /* --------------- Search Form ---------------- */
 
 #block-search-form {
+  display:block;
   margin:1em 0;
   border-top:0;
   background-color: transparent;
+  padding-bottom:0.5em;
+  text-align: right;
 }
 #block-search-form .content {
   margin-top: 0;
 }
 #search-form input#edit-keys,
 #block-search-form .form-item-search-block-form input {
-  float: right; /* LTR */
+  float: left; /* LTR */
   font-size: 1em;
   height: 1.143em;
   margin-right: 5px;
@@ -1496,8 +1499,6 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   text-indent: -9999px;
   background: url(../images/search-button.png) no-repeat center top;
   overflow: hidden;
-  background-color:transparent;
-  float:left;
 }
 #search-block-form input.form-submit:hover,
 #search-block-form input.form-submit:focus,
