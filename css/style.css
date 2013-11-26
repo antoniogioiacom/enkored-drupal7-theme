@@ -6,6 +6,11 @@
   src: local('Arvo'), url('../fonts/arvo.woff') format('woff');
 }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 /* ---------- Overall Specifications ---------- */
 
 body {
@@ -582,7 +587,7 @@ h1#site-name {
 /* ----------------- Content ------------------ */
 
 .content {
-  margin-top: 10px;
+  margin: 0;
 }
 h1#page-title {
   font-size: 2em;
@@ -878,9 +883,7 @@ ul.links {
   text-decoration: underline;
 }
 #footer-wrapper .block {
-  margin: 20px 0;
-  border: 1px solid #444;
-  border-color: rgba(255, 255, 255, 0.1);
+  margin: 10px 0;
   padding: 10px;
 }
 #footer-columns .block-menu,
@@ -900,8 +903,8 @@ ul.links {
   margin: 0;
 }
 #footer-columns h2 {
-  border-bottom: 1px solid #555;
-  border-color: rgba(255, 255, 255, 0.15);
+  font-weight: bold;
+  border-bottom: 1px solid #666;
   font-size: 1em;
   margin-bottom: 0;
   padding-bottom: 3px;
@@ -925,8 +928,6 @@ ul.links {
 }
 #footer-columns .content li a {
   display: block;
-  border-bottom: 1px solid #555;
-  border-color: rgba(255, 255, 255, 0.15);
   line-height: 1.2;
   padding: 0.8em 2px 0.8em 20px; /* LTR */
   text-indent: -15px;
