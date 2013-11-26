@@ -112,7 +112,6 @@
     }
     // Only display the wrapper div if there are links.
 
-    $content['links'] = ucfirst($content['links']);
     $links = render($content['links']);
     if ($links):
   ?>

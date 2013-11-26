@@ -683,6 +683,9 @@ h1#page-title {
   padding:10px 0;
   border-top: 1px solid #f0f0f0;
 }
+.link-wrapper a{
+text-transform:capitalize;
+}
 .field-type-image img,
 .user-picture img {
   margin: 0 0 1em;
