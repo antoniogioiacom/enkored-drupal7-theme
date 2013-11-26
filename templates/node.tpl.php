@@ -111,11 +111,11 @@
       unset($content['links']['comment']['#links']['comment-add']);
     }
     // Only display the wrapper div if there are links.
-    $links = render($content['links']);
+    $links = render(ucfirst($content['links']));
     if ($links):
   ?>
     <div class="link-wrapper">
-      <?php print ucfirst($links); ?>
+      <?php print $links; ?>
     </div>
   <?php endif; ?>
 

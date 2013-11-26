@@ -554,9 +554,9 @@ h1#site-name {
   background: #f0f0f0;
   background: rgba(30, 50, 10, 0.08);
   border-bottom: 1px solid #ccc;
-  -webkit-box-shadow: 0 6px 6px -4px #ccc;
-     -moz-box-shadow: 0 6px 6px -4px #ccc;
-          box-shadow: 0 6px 6px -4px #ccc;
+  -webkit-box-shadow: 0 5px 6px -4px #ccc;
+     -moz-box-shadow: 0 5px 6px -4px #ccc;
+          box-shadow: 0 5px 6px -4px #ccc;
 }
 #featured h2 {
   font-size: 1.174em;
@@ -638,11 +638,11 @@ h1#page-title {
 .node-teaser .content {
   clear: none;
   line-height: 1.6;
-  margin:10px 0;
+  margin:15px 0;
 }
 .meta {
   display:block;
-  margin:3px 0;
+  margin:5px 0;
   font-size: 0.857em;
   font-size:80%;
   color:#787878;
@@ -1488,7 +1488,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 #search-block-form input.form-submit,
 #search-form input.form-submit {
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 10px;
   height: 25px;
   width: 34px;
   padding: 0;
@@ -1497,12 +1497,14 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   background: url(../images/search-button.png) no-repeat center top;
   overflow: hidden;
   background-color:transparent;
+  float:left;
 }
 #search-block-form input.form-submit:hover,
 #search-block-form input.form-submit:focus,
 #search-form input.form-submit:hover,
 #search-form input.form-submit:focus {
   background-position: center bottom;
+  border:1px solid #787878;
 }
 #search-form .form-item-keys label {
   display: block;
@@ -1712,12 +1714,15 @@ img {
 
 #featured ul li{
   display:inline-block;
-  padding:0.4em;
+  padding:0.3em;
   background-color: #ddd;
-  margin:0 0.6em;
+  margin:0 0.5em;
   position:relative;
-  bottom:0px;
-  font-size:90%;
+  bottom:1px;
+  font-size:85%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 
 }
 
