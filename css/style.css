@@ -6,11 +6,6 @@
   src: local('Arvo'), url('../fonts/arvo.woff') format('woff');
 }
 
-video {
-  width: 100%    !important;
-  height: auto   !important;
-}
-
 /* ---------- Overall Specifications ---------- */
 
 body {
@@ -588,6 +583,8 @@ h1#site-name {
 
 .content {
   margin: 0;
+  overflow:auto;
+  padding:0;
 }
 h1#page-title {
   font-size: 2em;
@@ -600,7 +597,7 @@ h1#page-title {
 }
 .node .content {
   font-size: 1.071em;
-  padding:10px;
+  padding:0 10px;
 }
 
 .node h2 a{
@@ -1685,4 +1682,15 @@ div.admin-panel .description {
 #header{
   border-bottom:8px solid #222;
   padding:10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media \0screen {
+  img { 
+    width: auto;
+  }
 }
