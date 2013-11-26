@@ -581,9 +581,8 @@ h1#site-name {
 
 /* ----------------- Content ------------------ */
 
-.content {
+.node, .node-teaser, .content {
   margin: 0;
-  overflow:auto;
   padding:0;
 }
 h1#page-title {
@@ -1693,4 +1692,9 @@ img {
   img { 
     width: auto;
   }
+}
+
+#content .column {
+  padding:0;
+  margin:0;
 }
