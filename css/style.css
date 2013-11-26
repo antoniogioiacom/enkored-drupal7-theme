@@ -538,7 +538,7 @@ h1#site-name {
 
 #main {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 /* ----------------- Featured ----------------- */
@@ -548,12 +548,14 @@ h1#site-name {
   font-size: 1.643em;
   font-weight: normal;
   line-height: 1.4;
-  padding: 20px 0 45px;
+  padding: 15px 0 0 0;
   margin: 0;
   background: #f0f0f0;
   background: rgba(30, 50, 10, 0.08);
-  border-bottom: 1px solid #e7e7e7;
-  text-shadow: 1px 1px #fff;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 0 6px 6px -4px #ccc;
+     -moz-box-shadow: 0 6px 6px -4px #ccc;
+          box-shadow: 0 6px 6px -4px #ccc;
 }
 #featured h2 {
   font-size: 1.174em;
@@ -618,7 +620,7 @@ h1#page-title {
 }
 .node-teaser {
   border-top: 5px solid #f0f0f0;
-  margin: 0 0 50px 0;
+  margin: 0 0 10px 0;
   padding: 10px 0;
 }
 .node-sticky {
@@ -1697,4 +1699,38 @@ img {
 #content .column {
   padding:0;
   margin:0;
+}
+
+#featured ul{
+  text-align:center;
+  padding:0;
+}
+
+#featured ul li{
+  display:inline-block;
+  padding:0.4em;
+  background-color: #ddd;
+  margin:0 0.6em;
+  position:relative;
+  bottom:0px;
+  font-size:90%;
+
+}
+
+#featured ul li:hover{
+  background-color: #d0d0d0;
+
+}
+
+#featured ul li a.active{
+  color:#666;
+}
+
+#featured ul li a{
+  color:#999;
+}
+
+#featured ul li a:hover{
+  color:#014e85;
+  text-decoration: none;
 }
