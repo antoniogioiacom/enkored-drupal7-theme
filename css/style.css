@@ -598,12 +598,6 @@ h1#page-title {
   padding:10px;
 }
 
-.content .file-item h2{
-  background-color: transparent;
-  border:0;
-  font-weight: normal;
-}
-
 .node h2 a{
   display:block;
 }
@@ -643,10 +637,9 @@ h1#page-title {
 }
 .meta {
   font-size: 0.857em;
-  color: #68696b;
   margin-top:5px;
   margin-bottom: -5px;
-  font-size:85%;
+  font-size:80%;
   color:#787878;
 }
 .submitted .user-picture img {
@@ -681,16 +674,16 @@ h1#page-title {
   white-space: nowrap;
 }
 .link-wrapper {
-  text-align: right;
+  text-align: left;
   padding:10px 0;
-  border-top: 5px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
 }
 .field-type-image img,
 .user-picture img {
   margin: 0 0 1em;
 }
 ul.links {
-  color: #68696b;
+  color: #014e85;
   font-size: 0.821em;
 }
 .node-unpublished {
